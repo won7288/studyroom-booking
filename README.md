@@ -22,7 +22,7 @@ git clone후
 
 IDE 터미널에서 /gradlew build -x test 입력후 jar 파일 생성
 
-프로젝트 파일이 바탕화면에 있다는 가정하에 PowerShell에서 cd sync-life-studyroom/sync-life-studyroom 바꾼다음에 
+프로젝트 파일이 바탕화면에 있다는 가정하에 PowerShell에서  cd "$env:USERPROFILE\Desktop\sync-life-studyroom" 후에 cd sync-life-studyroom 한번 더입력
 
 docker compose up -d 입력으로 도커 컨테이너에 올림
 
